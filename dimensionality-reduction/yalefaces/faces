@@ -1,1 +1,3 @@
+The Yale Faces dataset contains grayscale images of 15 individuals, each captured under 11 different facial expressions or lighting conditions. This dataset is commonly used for facial recognition and dimensionality reduction tasks such as PCA and eigenfaces. All images are 243x320 pixels in PGM format.
 
+Note: This version excludes any non-image files to ensure compatibility with image-processing scripts.
