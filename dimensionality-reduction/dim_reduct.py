@@ -1,7 +1,3 @@
-# Nikhil Solanki
-# CS 383
-# Homework 1
-
 import numpy as np
 import matplotlib.pyplot as plt
 import os
