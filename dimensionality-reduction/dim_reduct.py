@@ -79,7 +79,7 @@ if centerlight_path in image_files:
 centerlight = standardized[subject02_index]
 
 # Taken from BBLearn Resources -> Python Functions; create video
-out = cv2.VideoWriter("homework1-eigenfaces.avi", cv2.VideoWriter_fourcc(*'XVID'), 15, (40, 40))
+out = cv2.VideoWriter("eigenfaces.avi", cv2.VideoWriter_fourcc(*'XVID'), 15, (40, 40))
 
 #𝐷 – Dimensionality of data vector (number of features)
 D = data.shape[0]
@@ -108,6 +108,6 @@ for k in range(1, D):
 # Finalize our video file
 out.release()
 
-print("The video was saved as 'homework1-eigenfaces.avi'")
+print("The video was saved as 'eigenfaces.avi'")
 
 
