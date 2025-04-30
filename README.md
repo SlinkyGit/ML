@@ -6,10 +6,13 @@ Each project is contained in its own subfolder with relevant code, data (or link
 
 ## 📁 Contents
 
-- `PCA-Eigenfaces/`  
+- `dimensionality-reduction/`(PCA-Eigenfaces)  
   Dimensionality reduction using PCA and visualization of eigenfaces with the Yale Faces dataset.
+  
+- `linear-regression-cf/` (Closed Form Linear Regression)\
+Implementation of linear regression using the closed-form (normal equation) method on medical cost data, including preprocessing, evaluation metrics (RMSE, SMAPE), and custom k-fold cross-validation.
 
-  ...
+...
 
 ## 🧪 Topics Covered
 
